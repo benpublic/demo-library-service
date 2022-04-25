@@ -1,0 +1,29 @@
+{
+  "name": "code_test_koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "jest 'src/.*\\.spec\\js$'",
+    "test:integration": "jest 'integration/.*\\.spec\\js$'",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4"
+  },
+  "devDependencies": {
+    "jest": "^28.0.0",
+    "nock": "^13.2.4",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}

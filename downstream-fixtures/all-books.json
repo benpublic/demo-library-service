@@ -1,0 +1,101 @@
+[
+  {
+    "book": {
+      "isbn": "978-0-19-537461-2",
+      "title": "A Guide to the Good Life",
+      "subtitle": "The Ancient Art of Stoic Joy",
+      "image": "https://placebear.com/700/900",
+      "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat nulla molestie mi imperdiet, eu tempor sem posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean laoreet facilisis velit non molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam commodo sem at ultrices ornare. Curabitur interdum enim ligula, eget semper magna lacinia vel. Praesent posuere justo non neque lacinia, id mollis mi feugiat. Quisque lacinia purus commodo elementum consequat. Morbi rhoncus, urna vel ullamcorper egestas, erat erat dapibus purus, id ultrices nibh urna ac magna. Pellentesque porta dignissim magna, sed ultrices risus mollis a.",
+      "authors": ["William B. Irvine"],
+      "classification": "Non-fiction",
+      "category": "Philosophy",
+      "publisher": "Oxford",
+      "borrowing_history": [
+        {
+          "borrower": "Harrison Booth",
+          "date_borrowed": "1997-10-19T09:09:00",
+          "date_returned": "1997-11-03T13:14:00",
+          "fine": 0.0
+        },
+        {
+          "borrower": "Ben Williams",
+          "date_borrowed": "2001-03-11T09:09:00",
+          "date_returned": "2003-02-23T13:14:00",
+          "fine": 240.45
+        },
+        {
+          "borrower": "Alan Ross",
+          "date_borrowed": "2003-02-23T09:10:00",
+          "date_returned": "2003-03-02T11:04:00",
+          "fine": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "book": {
+      "isbn": "979-8-4819-6456-0",
+      "title": "Enchiridion",
+      "subtitle": null,
+      "image": "https://placebear.com/700/900",
+      "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat nulla molestie mi imperdiet, eu tempor sem posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean laoreet facilisis velit non molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam commodo sem at ultrices ornare. Curabitur interdum enim ligula, eget semper magna lacinia vel. Praesent posuere justo non neque lacinia, id mollis mi feugiat. Quisque lacinia purus commodo elementum consequat. Morbi rhoncus, urna vel ullamcorper egestas, erat erat dapibus purus, id ultrices nibh urna ac magna. Pellentesque porta dignissim magna, sed ultrices risus mollis a.",
+      "authors": ["Epictetus", "Thomas W. Higginson"],
+      "classification": "Non-fiction",
+      "category": "Philosophy",
+      "publisher": "Sun Sight Press",
+      "borrowing_history": [
+        {
+          "borrower": "Harrison Booth",
+          "date_borrowed": "1997-10-19T09:09:00",
+          "date_returned": "1997-11-03T13:14:00",
+          "fine": 0.0
+        },
+        {
+          "borrower": "Ben Williams",
+          "date_borrowed": "2001-03-11T09:09:00",
+          "date_returned": "2003-02-23T13:14:00",
+          "fine": 240.45
+        },
+        {
+          "borrower": "Alan Ross",
+          "date_borrowed": "2003-02-23T09:10:00",
+          "date_returned": "2003-03-02T11:04:00",
+          "fine": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "book": {
+      "isbn": "978-0-674-99236-8",
+      "title": "Moral Essays: Volume I",
+      "subtitle": null,
+      "image": "https://placebear.com/700/900",
+      "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat nulla molestie mi imperdiet, eu tempor sem posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean laoreet facilisis velit non molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam commodo sem at ultrices ornare. Curabitur interdum enim ligula, eget semper magna lacinia vel. Praesent posuere justo non neque lacinia, id mollis mi feugiat. Quisque lacinia purus commodo elementum consequat. Morbi rhoncus, urna vel ullamcorper egestas, erat erat dapibus purus, id ultrices nibh urna ac magna. Pellentesque porta dignissim magna, sed ultrices risus mollis a.",
+      "authors": ["Seneca", "John W. Basore"],
+      "classification": "Non-fiction",
+      "category": "Philosophy",
+      "publisher": "Harvard",
+      "borrowing_history": [
+        {
+          "borrower": "Harrison Booth",
+          "date_borrowed": "1997-10-19T09:09:00",
+          "date_returned": "1997-11-03T13:14:00",
+          "fine": 0.0
+        },
+        {
+          "borrower": "Ben Williams",
+          "date_borrowed": "2001-03-11T09:09:00",
+          "date_returned": "2003-02-23T13:14:00",
+          "fine": 240.45
+        },
+        {
+          "borrower": "Alan Ross",
+          "date_borrowed": "2003-02-23T09:10:00",
+          "date_returned": "2003-03-02T11:04:00",
+          "fine": 0.0
+        }
+      ]
+    }
+  }
+]
