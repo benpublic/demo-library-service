@@ -1,5 +1,5 @@
 const getHandler = require('./get')
-const fetchBooks = require('../repository')
+const booksRepository = require('../repository')
 jest.mock('../repository')
 
 const userId = '123123-01'
@@ -22,7 +22,7 @@ describe('GET /books handler', () => {
 
     test('should call fetchBooks from repository with userId', async () => {
       await getHandler(ctx, next)
-      expect(fetchBooks).toBeCalledWith(userId)
+      expect(booksRepository.get).toBeCalledWith(userId)
     })
   })
 

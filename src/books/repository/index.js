@@ -1,5 +1,8 @@
-const downstreamData = require('../../../downstream-fixtures/all-books.json')
+const { mapBooksList, fetchBooksList } = require('./books')
 
-module.exports = async (userId) => { 
-  return Promise.resolve(downstreamData)
+module.exports = {
+  get: async (userId) => {
+    const downstreamBooksList = await fetchBooksList(userId)
+    return mapBooksList(downstreamBooksList)
+  }
 }
