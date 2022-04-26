@@ -1,22 +1,15 @@
 {
-  "name": "code_test_koa",
+  "name": "demo-library-sevice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo Library Service",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "npm run test:unit && npm run test:integration",
     "test:unit": "jest 'src/.*\\.spec\\.js$'",
-    "test:integration": "jest 'integration/.*\\.spec\\.js$'",
     "lint": "eslint src",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@koa/router": "^10.1.1",
     "koa": "^2.13.4"

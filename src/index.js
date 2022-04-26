@@ -3,9 +3,8 @@ const KoaRouter = require('@koa/router')
 
 const bookHandler = require('./books/handlers')
 
-const router = new KoaRouter()
-router.use(bookHandler.routes())
-router.use(bookHandler.allowedMethods())
-
 const app = new Koa()
+app.use(bookHandler.routes())
+app.use(bookHandler.allowedMethods())
+
 app.listen(3000)
