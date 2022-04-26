@@ -1,14 +1,11 @@
 const Koa = require('koa')
 const KoaRouter = require('@koa/router')
 
-// const allBooks = require('./allBooks/handlers')
-// const bookDetails = require('./policy-details/handlers')
+const bookHandler = require('./books/handlers')
 
 const router = new KoaRouter()
-// router.use(allBooks.routes())
-// router.use(allBooks.allowedMethods())
-// router.use(bookDetails.routes())
-// router.use(bookDetails.allowedMethods())
+router.use(bookHandler.routes())
+router.use(bookHandler.allowedMethods())
 
 const app = new Koa()
 app.listen(3000)

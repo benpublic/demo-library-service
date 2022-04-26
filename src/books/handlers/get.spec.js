@@ -7,17 +7,15 @@ const next = jest.fn()
 
 describe('GET /books handler', () => {
   describe('Successful responses', () => {
-    let ctx;
+    let ctx
 
     beforeAll(() => {
       ctx = {
-        state: {
-          userId,
-        },
+        query: { userId }
       }
     })
 
-    test('should return a status 200 response', () => {
+    test('should return a status 200 response', async () => {
       await getHandler(ctx, next)
       expect(ctx.status).toStrictEqual(200)
     })
@@ -29,13 +27,13 @@ describe('GET /books handler', () => {
   })
 
   describe('Unsuccessful responses', () => {
-    let ctx;
+    let ctx
 
     beforeAll(() => {
-      ctx = {state: {}}
+      ctx = { query: {} }
     })
 
-    test('should return a status 400 when missing user id', () => {
+    test('should return a status 400 when missing user id', async () => {
       await getHandler(ctx, next)
       expect(ctx.status).toStrictEqual(400)
     })
