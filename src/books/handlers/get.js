@@ -5,9 +5,14 @@ module.exports = async (ctx, next) => {
   if (!userId) {
     ctx.status = 400
   } else {
-    const response = await booksRepository.get(userId)
-    ctx.body = response
-    ctx.status = 200
+    try {
+      const response = await booksRepository.get(userId)
+      ctx.body = response
+      ctx.status = 200
+    } catch (error) {
+      ctx.status = error.status
+      ctx.body = error.message
+    }
   }
 
   await next()
