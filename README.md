@@ -1,6 +1,6 @@
 # Demo Library Service
 
-This service consumes a downstream data source to provide some computed data to consumers.
+This service consumes a downstream data source to provide some computed data to consumers. The downstream service call is mocked with the `downstream-fixtures/all-books.json` file to mimic using an API/database as a downstream data source.
 
 The requirements for the service are to:
   
@@ -17,3 +17,7 @@ Additional requirements have arisen for an endpoint that generates some metrics 
   * the number of times borrowed
   * the average length of borrowing
   * the number of times the book has become overdue
+
+Useful links
+  - [Koa Docs](https://koajs.com/)
+  - [Jest Docs](https://jestjs.io/docs/getting-started)
