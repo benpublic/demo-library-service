@@ -9,9 +9,10 @@ The requirements for the service are to:
   3) filter books by their author
   4) filter books by their classification
   5) filter books by their category
-  6) filter books by their category
+  6) handle mapping books with a `null` blurb
 
-Additional requirements are to generate some metrics for each book to show:
+
+Additional requirements have arisen for an endpoint that generates some metrics for a specific book (by ISBN):
 
   * the number of times borrowed
   * the average length of borrowing
