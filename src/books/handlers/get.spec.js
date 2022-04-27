@@ -9,7 +9,7 @@ describe('GET /books handler', () => {
   describe('Successful responses', () => {
     let ctx
 
-    beforeAll(() => {
+    beforeEach(() => {
       ctx = {
         query: { userId }
       }
@@ -29,7 +29,7 @@ describe('GET /books handler', () => {
   describe('Unsuccessful responses', () => {
     let ctx
 
-    beforeAll(() => {
+    beforeEach(() => {
       ctx = { query: {} }
     })
 
