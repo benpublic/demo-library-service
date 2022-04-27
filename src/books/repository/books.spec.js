@@ -4,11 +4,10 @@ const { fetchBooksList, mapBooksList } = require('./books')
 
 describe('Repository for fetching & mapping list of books', () => {
   describe('Downstream service call', () => {
-    const expectedData = downstreamFixture
     const userId = 'strfx-01'
 
     test('Should return JSON data as object', async () => {
-      expect(fetchBooksList(userId)).resolves.toEqual(expectedData)
+      expect(fetchBooksList(userId)).resolves.toEqual(downstreamFixture)
     })
 
     test('Should throw an error if missing userId', () => {
